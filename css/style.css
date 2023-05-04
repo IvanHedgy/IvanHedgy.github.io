@@ -38,7 +38,7 @@ ul {
 .wrapper {
     width: 1188px;
     margin: 0 auto;
-    padding: 0 10;
+    padding: 0px 10px;
 }
 
 
@@ -83,11 +83,11 @@ ul {
     height: 750px;
     /* max-width: 1940px; */
 
-    @media screen and (min-width:1939px) {
+    /* @media screen and (min-width:1939px) {
         width: 1920px;
         margin: 0 auto;
         padding: 0 10;
-    }
+    } */
 }
 
 /* Promo */
@@ -110,7 +110,7 @@ ul {
     /* font-family: Helvetica; */
     font-size: 24px;
     font-weight: 400;
-    line-height: 1,5em;
+    /* line-height: 1,5em; */
 }
 
 .promo-text-end {
@@ -196,6 +196,15 @@ ul {
 
 /* Media tablet */
 
+@media screen and (min-width:1939px) {
+
+    .img-bg {
+    width: 1920px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    }
+}
+
 @media screen and (max-width: 1187px) {
 
     .page-body {
@@ -205,7 +214,7 @@ ul {
     .wrapper {
         width: 770px;
         margin: 0 auto;
-        padding: 0 10;
+        padding: 0px 10px;
     }
 
 }
