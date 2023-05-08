@@ -36,7 +36,7 @@ ul {
 }
 
 .wrapper {
-    width: 1188px;
+    width: 1168px;
     margin: 0 auto;
     padding: 0px 10px;
 }
@@ -81,13 +81,6 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     height: 750px;
-    /* max-width: 1940px; */
-
-    /* @media screen and (min-width:1939px) {
-        width: 1920px;
-        margin: 0 auto;
-        padding: 0 10;
-    } */
 }
 
 /* Promo */
@@ -96,8 +89,7 @@ ul {
     padding: 50px 0px;
 }
 
-.promo-title,
-.portfolio-item-title {
+.promo-title {
     font-family: 'Finlandica', sans-serif;
     font-size: 40px;
     line-height: 33px;
@@ -110,7 +102,6 @@ ul {
     /* font-family: Helvetica; */
     font-size: 24px;
     font-weight: 400;
-    /* line-height: 1,5em; */
 }
 
 .promo-text-end {
@@ -120,6 +111,67 @@ ul {
     font-weight: 400;
     font-size: 30px
 }
+
+/* Portfolio */
+
+.portfolio-item-title {
+    font-family: 'Finlandica', sans-serif;
+    font-size: 36px;
+    line-height: 33px;
+    font-weight: 500;
+    color: #1f312c;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.portfolio-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-link:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+ 
+.portfolio-link:active {
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+.portfolio-img {
+    width: 262px;
+    height: 262px;
+    object-fit: cover;
+    text-indent: -100vw;
+}
+
+.portfolio-img-wrapper {
+    width: 262px;
+    height: 262px;
+    background-color: #d6d4d4;
+}
+
+.breadcrumbs {
+    font-family: 'Finlandica', sans-serif;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #1f312c;
+    display: flex;
+    margin: 20px auto;
+}
+
+.breadcrumbs-item {
+    margin-right: 10px;
+}
+
+
 
 /* Footer */
 
@@ -199,9 +251,9 @@ ul {
 @media screen and (min-width:1939px) {
 
     .img-bg {
-    width: 1920px;
-    margin: 0 auto;
-    padding: 0px 10px;
+        width: 1920px;
+        margin: 0 auto;
+        padding: 0px 10px;
     }
 }
 
@@ -216,5 +268,13 @@ ul {
         margin: 0 auto;
         padding: 0px 10px;
     }
+
+    .portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+    
 
 }
