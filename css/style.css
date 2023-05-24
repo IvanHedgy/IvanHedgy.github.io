@@ -87,7 +87,8 @@ ul {
 
 /* Promo */
 
-.wrapper-promo {
+.wrapper-promo, 
+.wrapper-cv {
     padding: 50px 0px;
     width: 960px;
     margin: 0 auto;
@@ -387,6 +388,15 @@ ul {
         justify-content: space-around;
     }
 
+    .cv-main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: stretch;
+    }
 
+    .author-photo {
+        align-self: center;
+    }
 
 }
